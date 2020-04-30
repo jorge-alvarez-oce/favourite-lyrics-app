@@ -1,9 +1,9 @@
 package org.hexarch.lyrics.rest;
 
 import lombok.extern.slf4j.Slf4j;
-import org.hexarch.lyrics.core.service.LyricsService;
-import org.hexarch.lyrics.domain.data.LyricsDto;
-import org.hexarch.lyrics.domain.exception.LyricsNotFoundException;
+import org.hexarch.lyrics.service.LyricsService;
+import org.hexarch.lyrics.domain.LyricsDto;
+import org.hexarch.lyrics.domain.LyricsNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;

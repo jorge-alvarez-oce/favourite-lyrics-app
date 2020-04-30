@@ -1,4 +1,4 @@
-package org.hexarch.lyrics.domain.data;
+package org.hexarch.lyrics.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

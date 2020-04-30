@@ -1,6 +1,6 @@
 package org.hexarch.lyrics.rest;
 
-import org.hexarch.lyrics.domain.data.LyricsDto;
+import org.hexarch.lyrics.domain.LyricsDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

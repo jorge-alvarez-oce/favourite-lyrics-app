@@ -1,10 +1,10 @@
-package org.hexarch.lyrics.domain.port;
+package org.hexarch.lyrics.service;
 
-import org.hexarch.lyrics.domain.data.LyricsDto;
+import org.hexarch.lyrics.domain.LyricsDto;
 
 import java.util.List;
 
-public interface LyricsPersistencePort {
+public interface LyricsService {
 
     void addLyrics(LyricsDto lyricsDto);
 
@@ -15,4 +15,5 @@ public interface LyricsPersistencePort {
     List<LyricsDto> getAllLyrics();
 
     LyricsDto getLyricsById(Long lyricsId);
+
 }

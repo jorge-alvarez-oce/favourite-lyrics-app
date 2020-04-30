@@ -1,4 +1,4 @@
-package org.hexarch.lyrics.domain.exception;
+package org.hexarch.lyrics.domain;
 
 public class LyricsNotFoundException extends RuntimeException {
 

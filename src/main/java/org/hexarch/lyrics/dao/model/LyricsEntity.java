@@ -1,4 +1,4 @@
-package org.hexarch.lyrics.jpa.model;
+package org.hexarch.lyrics.dao.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

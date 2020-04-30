@@ -1,11 +1,11 @@
-package org.hexarch.lyrics.jpa.adapter;
+package org.hexarch.lyrics.dao;
 
 import lombok.SneakyThrows;
-import org.hexarch.lyrics.jpa.model.LyricsEntity;
-import org.hexarch.lyrics.jpa.repository.LyricsRepository;
-import org.hexarch.lyrics.domain.data.LyricsDto;
-import org.hexarch.lyrics.domain.exception.LyricsNotFoundException;
-import org.hexarch.lyrics.domain.port.LyricsPersistencePort;
+import org.hexarch.lyrics.dao.model.LyricsEntity;
+import org.hexarch.lyrics.dao.repository.LyricsRepository;
+import org.hexarch.lyrics.domain.LyricsDto;
+import org.hexarch.lyrics.domain.LyricsNotFoundException;
+import org.hexarch.lyrics.dao.LyricsDao;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,11 +14,11 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 @Service
-public class LyricsJpaAdapter implements LyricsPersistencePort {
+public class LyricsJpaDao implements LyricsDao {
 
     private LyricsRepository lyricsRepository;
 
-    public LyricsJpaAdapter(LyricsRepository lyricsRepository) {
+    public LyricsJpaDao(LyricsRepository lyricsRepository) {
         this.lyricsRepository = lyricsRepository;
     }
 

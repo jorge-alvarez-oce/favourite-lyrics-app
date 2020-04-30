@@ -1,10 +1,10 @@
-package org.hexarch.lyrics.core.service;
+package org.hexarch.lyrics.dao;
 
-import org.hexarch.lyrics.domain.data.LyricsDto;
+import org.hexarch.lyrics.domain.LyricsDto;
 
 import java.util.List;
 
-public interface LyricsService {
+public interface LyricsDao {
 
     void addLyrics(LyricsDto lyricsDto);
 
@@ -15,5 +15,4 @@ public interface LyricsService {
     List<LyricsDto> getAllLyrics();
 
     LyricsDto getLyricsById(Long lyricsId);
-
 }
